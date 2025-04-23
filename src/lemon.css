@@ -1,0 +1,196 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+li{
+    list-style: none;
+}
+nav ul{
+    display:flex;
+
+}
+
+ li a{
+  text-decoration: none;
+  margin-left:10px;
+    
+}
+
+.logo{
+    margin-right:100px;
+}
+
+#presentation p{
+    font-size:20px;
+    line-height: 1.5;
+    max-width: 300px;
+    color: #EDEFEE;
+    font-family: regular;
+}
+ 
+p{
+    color:#333333;
+}
+
+
+#presentation{
+    border:1px solid #495E57;
+    width: 40vw;
+    height: 280px;
+    margin:auto;
+    padding-left:120px;
+    position:relative;
+    background-color:#495E57;
+    margin-bottom:200px;
+}
+
+section h1,
+section h3,
+section p {
+    padding-bottom: 10px;
+}
+
+
+section h1{
+    color:#F4CE14;
+    font-size:34px;
+}
+section h3, section p{
+    color:#EDEFEE;
+}
+section h3{
+    font-size:25px;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:100px;
+}
+
+.menu{
+    border:2px solid #EDEFEE;
+    border-radius:16px;
+    width:230px;
+    height:500px;
+    object-fit: cover;
+    background-color:#EDEFEE;
+}
+
+.menu h6{
+    color:#333333;
+}
+
+#online-menu{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-price{
+    display:flex;
+}
+
+.food-price h4{
+    padding:7px;
+}
+
+#specials-weeks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom :50px;
+}
+
+#specials-weeks h2{
+    margin-right:285px;
+}
+
+
+footer{
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    
+    
+}
+
+footer li{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+
+.links{
+    color:#333333;
+    font-weight: 600;
+    font-family: "karla";
+    font-size:20px;
+    padding: 5px;
+    
+}
+
+.links:hover{
+    color:#EDEFEE;
+    background-color: #495E57;
+    border-radius: 10px;
+    border:1px solid #495E57;
+  
+
+}
+
+
+a{
+    text-decoration: none;
+    color:#333333;
+
+}
+
+a:hover{
+    color:green;
+}
+
+.link2{
+    margin-bottom:15px;
+}
+
+
+@media screen and (max-width: 1400px) {
+   .square{
+    position:absolute;
+    left: 380px;
+    
+   }
+   #presentation{
+    width: 80vw;
+    padding-left:80px;
+   }
+
+   section h1{
+    color:#F4CE14;
+    font-size:24px;
+    padding-top:15px
+   }
+
+   section h3{
+    font-size:19px;
+   }
+
+   #presentation p{
+    font-size:18px;
+  }
+
+  }
+
+  
